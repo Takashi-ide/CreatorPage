@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Ola's blog</title>
+    </head>
+    <body>
+        <p>Hi there!</p>
+        <div>
+          {% for post in posts %}
+
+          Username: {{ post.user.username }}
+          Post: {{ post.content }}
+
+          <br>
+
+          {% endfor %}
+        </div>
+        
+        <p>It works!</p>
+    </body>
+</html>

@@ -6,12 +6,12 @@ from .models import SpotInfo
 # Create your views here.
 def post_list(request):
     logged_in_user = request.user
-    posts = TourInfo.objects.filter(user = user, published_date__lte=timezone.now()).order_by('published_date')
-    return render(request, 'create/post_list.html', {'posts':posts})
+    return render(request, 'create/post_list.html', {})
 
 def account(request):
-
-    return render(request, 'create/account.html', {})
+    logged_in_user = request.user
+    posts = TourInfo.objects.filter(user = user, published_date__lte=timezone.now()).order_by('published_date')
+    return render(request, 'create/account.html', {'posts':posts})
 
 def accountedit(request):
 
