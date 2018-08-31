@@ -1,20 +1,97 @@
 <html>
     <head>
-        <title>Ola's blog</title>
+      <title>Account Page</title>
+      <meta http-equiv="content-type" charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="/Users/koheihayashi/Desktop/yagura.inc/CreatorPage/create/static/css/account.css">      
     </head>
     <body>
-        <p>Hi there!</p>
-        <div>
-          {% for post in posts %}
+      <div id="aboutAccount">
+        <div id="user">
+          <div id="image">
+            <img id="accountImage" src="account.png">
+          </div>
 
-          Username: {{ post.user.username }}
-          Post: {{ post.content }}
-
-          <br>
-
-          {% endfor %}
+          <div id="name">
+            <label id="label">oHayashi</label>
+          </div>  
         </div>
-        
-        <p>It works!</p>
+        <div id="selfIntroduction">
+          <pre>
+  自己紹介の文が
+  中に打ち込まれていき
+          </pre>
+        </div>
+        <div>
+          <ul id="userInfo">
+            <li class="infos">Age : 21</li>
+            <li class="infos">Country : Japan</li>
+            <li class="infos">Language : Japanese</li>
+            <li class="infos">tours : 20</li>
+          </ul>
+        </div>
+        <div id="buttons">
+          <div>
+            <img id="set" src="setting.png">
+          </div>
+        </div>
+      </div>
+      <div id="tourMenu">
+        <div id="menu">
+          <div id="title">
+            <label>Exciting Japanese Tour</label>
+          </div>
+          <div id="aButton">
+            <img id="add" src="plus.png">
+          </div>
+        </div>
+        <div id="tours">
+          <table id="toursInfo" border="0" cellspacing="10">
+            <tbody>
+              <tr>
+                <td>
+                  <img class="tourImage" src="otemachi.JPG" title="Otemachi">
+                  <p class="tourTitle">Otemachi</p>
+                </td>
+                <td>
+                  <img class="tourImage" src="countrySide.JPG" title="Country Side">
+                  <p class="tourTitle">Country Side</p>
+                </td>
+                <td>
+                  <img class="tourImage" src="skyTree.JPG" title="Sky Tree">
+                  <p class="tourTitle">Sky Tree</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img class="tourImage" src="bonsai.JPG" title="Bonsai">
+                  <p class="tourTitle">Bonsai</p>
+                </td>
+                <td>
+                  <img class="tourImage" src="">
+                  <p class="tourTitle"></p>
+                </td>
+                <td>
+                  <img class="tourImage" src="">
+                  <p class="tourTitle"></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img class="tourImage" src="">
+                  <p class="tourTitle"></p>
+                </td>
+                <td>
+                  <img class="tourImage" src="">
+                  <p class="tourTitle"></p>
+                </td>
+                <td>
+                  <img class="tourImage" src="">
+                  <p class="tourTitle"></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </body>
 </html>

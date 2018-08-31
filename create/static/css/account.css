@@ -1,0 +1,131 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#aboutAccount {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 25%;
+	height: 100%;
+	z-index: 9999;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(30,144,255,0.6);
+	box-shadow:1px 0px 0px rgba(0,0,0,0.4);
+}
+
+#user {
+	height: 30%;
+	background-color: white;
+	margin: 10px;
+	border-radius: 20px;
+}
+
+#image {
+	height: 80%;
+	text-align: center;
+}
+
+#accountImage {
+	height: 100px;
+	width: 100px;
+	padding-top: 50px;
+
+}
+
+#name {
+	height: 20%;
+	text-align: center;
+	font-family: arial black;
+	font-size: x-large;
+
+}
+
+
+#selfIntroduction {
+	height: 15%;
+	background-color: white;
+	padding:5 0 0 5px;
+	margin: 10px;
+	border-radius: 20px;
+}
+
+#userInfo {
+	height: 40%;
+	list-style: none;
+	padding: 0 0 0 5%;
+}
+
+.infos {
+	padding: 0 0 10 0%;
+	font-family: arial unicode ms;
+
+}
+
+#buttons {
+	height: 15%;
+	text-align: right;
+}
+
+#set {
+	height: 30px;
+	width: 30px;
+	padding: 20 15 15 30px;
+
+}
+
+#tourMenu {
+	float: right;
+	position: fixed;
+	right: 0px;
+	width: 75%;
+	height: 100%;
+}
+
+#menu {
+	height: 15%;
+	background-color: rgba(30,144,255,0.4);}
+
+#title {
+	height: 100%;
+	width: 80%;
+	float: left;
+	font-family: arial black;
+	font-size: xx-large;
+	text-align: center;
+	line-height: 120px;
+}
+
+#aButton {
+	height: 100%;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+#add {
+	height: 60px;
+	width: 60px;
+	
+	padding: 6px;
+	position: absolute;
+	margin: 30 200 0 0px;
+}
+
+#tours {
+	height: 85%;
+}
+
+.tourImage {
+	height: 200px;
+	width: 340px;
+	border-radius: 10px;
+
+}
+
+.tourTitle {
+	text-align: center;
+}
